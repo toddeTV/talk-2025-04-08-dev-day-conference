@@ -56,7 +56,7 @@ jobs:
 
       - name: Build Project Artifacts
         env:
-          VITE_ZLIG_DEMO_BASE_URL: ${{ secrets.VITE_ZLIG_DEMO_BASE_URL }}
+          VITE_ZLIG_DEMO_BASE_URL: ${{ vars.VITE_ZLIG_DEMO_BASE_URL }}
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy Project Artifacts to Vercel
@@ -71,8 +71,7 @@ jobs:
 
           # remove the first and the last character from the secret in order to unencrypt it
           # (Otherwise GitHub will treat it as a secret and hide it, but we want to expose this secret later to the user)
-          VERCEL_PREVIEW_URL_SUFFIX_UNENCRYPTED=$(echo "${{ secrets.VERCEL_PREVIEW_URL_SUFFIX }}" | cut -c 2- | rev | cut -c 2- | rev)
-          URL_PR="pr-$ISSUE_NUMBER-$VERCEL_PREVIEW_URL_SUFFIX_UNENCRYPTED"
+          URL_PR="pr-$ISSUE_NUMBER-${{ vars.VERCEL_PREVIEW_URL_SUFFIX }}"
 
           # add the PR number as custom domain to the Vercel preview deployment
           vercel alias set "$URL_COMMIT" "$URL_PR" --token="${{ secrets.VERCEL_TOKEN }}"
