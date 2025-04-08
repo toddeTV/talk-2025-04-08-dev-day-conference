@@ -123,11 +123,22 @@ Used programs/ softwares, services and dependencies - besides the ones in `./pac
 
 - [Slidev](https://github.com/slidevjs/slidev) used for creating the slides of the talk.
 - [GitHub Copilot](https://github.com/features/copilot) was used in private mode for programming questions.
+- [Figma](https://www.figma.com/) used for SVG asset creations.
 
 Used assets/ materials including images and 3D models:
 
 - Game Project `zlig` hosted on [https://zlig.net/](https://zlig.net/) with source code on [https://github.com/toddeTV/zlig](https://github.com/toddeTV/zlig). Included materials in `zlig` are listed separately there as they are not part of this presentation project.
 - Portrait from `Thorsten Seyschab` by [Franziska Kestel](https://franziskakestel.de/).
+- Logo for `ThreeJS` from [https://discourse.threejs.org/t/three-js-svg-logo/21835](https://discourse.threejs.org/t/three-js-svg-logo/21835).
+- Logo for `WebGL` from [https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg](https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg).
+- 3D asset(s), Internally identified with ID `18`:
+  - Name: `Train Kit`
+  - Cost: free
+  - License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (commercial use allowed, no credits needed)
+  - Author: [Kenney](https://kenney.nl/)
+  - Downloaded:
+    - Date: 2025-03-04
+    - From: [kenney](https://kenney.nl/assets/train-kit)
 
 ## License
 

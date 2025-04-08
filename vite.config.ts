@@ -1,3 +1,4 @@
+import { templateCompilerOptions } from '@tresjs/core'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
     //   },
     // },
     vue: {
+      ...templateCompilerOptions,
     },
   },
 })
