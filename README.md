@@ -40,7 +40,7 @@ Development VM ID from Thorsten Seyschab for this project: `014`<br>
    1. You must set the variable `VITE_ZLIG_DEMO_BASE_URL` with the base URL of the `zlig` demo branch
       [chore/demo-2025-04-08-dev-day-conference](https://github.com/toddeTV/zlig/tree/chore/demo-2025-04-08-dev-day-conference).
       Therefore, you can pull this branch and use it locally (recommended!), or use the pre-build dev demo URL
-      from the `zlig` [PR #142](https://github.com/toddeTV/zlig/pull/142) (not recommended!).
+      from the `zlig` [PR #165](https://github.com/toddeTV/zlig/pull/165) (not recommended!).
 7. Install dependencies: `pnpm i --frozen-lockfile`
 8. Happy coding <3
 
