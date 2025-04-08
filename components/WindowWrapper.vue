@@ -37,7 +37,7 @@ const props = withDefaults(defineProps<{
 
 /* Browser header */
 .browser-header {
-  @apply flex items-center justify-end bg-gray-800 text-white p-2;
+  @apply flex items-center justify-end bg-gray-800 text-white p-2 h-[25px];
 }
 
 /* Browser control buttons (right aligned) */

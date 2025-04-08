@@ -2,8 +2,10 @@
 import { computed } from 'vue'
 
 const props = withDefaults(defineProps<{
+  height?: string
   url?: string
 }>(), {
+  height: '100%',
   url: '',
 })
 
@@ -19,7 +21,7 @@ const zligDemoBaseUrl = computed<string | undefined>(() => {
 <template>
   <iframe
     v-if="zligDemoBaseUrl"
-    height="100%"
+    :height="height"
     :src="`${zligDemoBaseUrl}${props.url}`"
     width="100%"
   />

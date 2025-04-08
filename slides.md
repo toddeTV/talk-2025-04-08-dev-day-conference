@@ -45,7 +45,7 @@ themeConfig:
   showPageProcessBar: true
   showTotalPageCount: false
   # e.g. when you have backup slides after the end slide and don't whant them to be added to the total page count
-  subtractFromTotalPageCount: 0
+  subtractFromTotalPageCount: 2
 title: Playing with 3D on the Web & Beyond (talk on 2025-04-08 at the Dev Day 2025 conference in Dresden.)
 titleTemplate: '%s'
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
@@ -53,4 +53,104 @@ titleTemplate: '%s'
 
 # ==== only for the first slide
 src: content/start.md
+---
+
+---
+src: content/talk-overview.md
+---
+
+---
+src: content/why-3d-on-the-web.md
+---
+
+---
+src: content/understand-3d-scenes.0.md
+---
+
+---
+src: content/understand-3d-scenes.1.md
+---
+
+---
+src: content/understand-3d-scenes.2.md
+---
+
+---
+src: content/understand-3d-scenes.3.md
+---
+
+---
+src: content/understand-3d-scenes.4.md
+---
+
+---
+src: content/understand-3d-scenes.5.md
+---
+
+---
+src: content/understand-3d-scenes.6.md
+---
+
+---
+src: content/understand-3d-scenes.7.md
+---
+
+---
+src: content/understand-3d-scenes.8.md
+---
+
+---
+src: content/understand-3d-scenes.9.md
+---
+
+---
+src: content/understand-3d-scenes.10.md
+---
+
+---
+src: content/understand-3d-scenes.11.md
+---
+
+---
+src: content/zlig-demo.md
+---
+
+---
+src: content/gltf-example.md
+---
+
+---
+src: content/load-a-gltf-file-problems.md
+---
+
+---
+src: content/gltf-type-generation.md
+---
+
+---
+src: content/gltf-type-generation-example.md
+---
+
+---
+src: content/load-a-gltf-file-solution.md
+---
+
+---
+src: content/agnostic-plugin-pipeline.md
+---
+
+---
+src: content/gltf-type-toolkit.md
+---
+
+---
+src: content/end.md
+---
+
+---
+src: content/backup-slides.md
+---
+
+---
+src: content/zlig-demo.md
 ---
